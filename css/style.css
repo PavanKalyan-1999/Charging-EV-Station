@@ -1,0 +1,287 @@
+*
+{
+    padding:0px;
+    margin:0px;
+}
+.logo_adjust
+{
+    width:100px;
+    height:100px;
+}
+
+/*---------------navbar--------*/
+.back_color
+{
+    background: linear-gradient(rgba(0,0,0,0.4),rgba(0,0,0,0.4)),url(../media/images/section4.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    object-fit: cover;
+    background-attachment: fixed;
+    width:100%;
+    height: 100vh;
+}
+.text_change
+{
+    color:#0367a6;
+}
+.head_text_po
+{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 200px;
+}
+.head_text_po h1
+{
+    color: #0367a6;
+}
+.head_text_po span
+{
+    color: white;
+    margin-top: 20px;
+}
+.aboutus_background
+{
+    background: linear-gradient(rgba(0,0,0,0.7),rgba(0,0,0,0.7)),url(../media/images/banner3.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+    object-fit: cover;
+    width:100%;
+    height: 100vh;
+    padding: 90px 0px 90px 0px;
+}
+.heading_in_aboutus h3
+{
+    color: #179f34;
+}
+.heading_in_aboutus span
+{
+    color: #0367a6;
+}
+.connectors_sec
+{
+    background-color: lightgray;
+    padding: 10px 0px 10px 0px;
+}
+.connectors_sec h5
+{
+    color: #0367a6;
+}
+.connectors_sec p
+{
+    color:#0367a6;
+}
+.advntg_sec
+{
+    background: linear-gradient(rgba(0,0,0,0.8),rgba(0,0,0,0.8)),url(../media/images/section3.jpeg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+    object-fit: cover;
+    width:100%;
+    height: 100vh;
+    padding: 90px 0px 90px 0px;
+}
+.advntg_text h3
+{
+    color: #0367a6;
+}
+.advntg_text span
+{
+    color: #179f34;
+}
+.compt_sec
+{
+    padding: 40px 0px 40px 0px;
+    background-color: lightgray;
+}
+.compt_text
+{
+    color: #0367a6;
+}
+.blog_sec
+{
+    background: linear-gradient(rgba(0,0,0,0.8),rgba(0,0,0,0.8)),url(../media/images/section5.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+    object-fit: cover;
+    width:100%;
+    height: 100vh;
+    padding: 80px 0px 80px 0px;
+}
+.blog_sec h1
+{
+    color: #0367a6;
+}
+.blog_sec h6
+{
+    color: #179f34;
+}
+.charge_card_sec
+{
+    background-color: lightgray;
+    padding: 40px 0px 40px 0px;
+}
+.charge_card_sec button
+{
+    border-radius:0px 20px 0px 20px;
+    color:white;
+    background-color: #0367a6;
+    padding: 10px;
+    border:none;
+}
+.charge_card_sec button:hover
+{
+    border-radius:20px 0px 20px 0px;
+    color:white;
+    background-color: #179f34;
+    padding: 10px;
+    border:none;
+}
+.charge_card_text
+{
+    margin-top: 105px;
+}
+.charge_card_text h2
+{
+    color: #0367a6;
+}
+.charge_card_text p
+{
+    color: black;
+}
+.map_sec
+{
+    padding: 40px 0px 40px 0px;
+    background: linear-gradient(rgba(0,0,0,0.8),rgba(0,0,0,0.8)),url(../media/images/map.png);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    object-fit: cover;
+    width:100%;
+    height: 70vh;
+}
+.section_footer
+{
+  background: #d4d9df ;
+  padding: 30px 0px 30px;
+  border-bottom: 2px solid #179f34;
+}
+
+.footer_links a
+{
+  text-decoration: none;
+  color: #0367a6;
+  font-weight: 400;
+  font-size: large;
+  margin-left: 5px;
+}
+.footer_links h4
+{
+  color: #0367a6;
+}
+.footer_addres h4
+{
+  color: #0367a6;
+}
+
+.footer_addres ul
+{
+  list-style: none;
+  padding: 0px;
+}
+.footer_addres ul li
+{
+  display:flex;
+  align-items: baseline;
+  margin-top: 5px;
+
+}
+.footer_addres p
+{
+  margin-left: 10px;
+}
+#change_color
+{
+  color: #0367a6;
+}
+.social_media ul
+{
+  display: flex;
+  padding: 0px;
+}
+.social_media ul li 
+{
+  display: inline-block;
+  margin-left: 10px;
+}
+.social_media a
+{
+  color:#0367a6;
+}
+.copy_footer
+{
+  background: #d4d9df ;
+}
+.footer_links p
+{
+    margin: 0px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+@media only screen and (min-width:360px) and (max-width:640px)
+{
+    .aboutus_background
+{
+    background: linear-gradient(rgba(0,0,0,0.7),rgba(0,0,0,0.7)),url(../media/images/banner3.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    object-fit: cover;
+    width:100%;
+    height: 100%;
+    padding: 90px 0px 90px 0px;
+}
+.advntg_sec
+{
+    background: linear-gradient(rgba(0,0,0,0.8),rgba(0,0,0,0.8)),url(../media/images/section3.jpeg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    object-fit: cover;
+    width:100%;
+    height: 100%;
+    padding: 90px 0px 90px 0px;
+}
+.blog_sec
+{
+    background: linear-gradient(rgba(0,0,0,0.8),rgba(0,0,0,0.8)),url(../media/images/section5.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    object-fit: cover;
+    width:100%;
+    height: 100%;
+    padding: 80px 0px 80px 0px;
+}
+}
